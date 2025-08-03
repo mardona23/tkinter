@@ -1,0 +1,10 @@
+from tkinter import *
+window1=Tk()
+window1.title('notpad')
+window1.geometry('500x500')
+window1.configure(bg='red')
+l1=Label(text='adams lab',fg='red',bg='blue',height=3,width=10)
+b1=Button(text='clik on me',fg='yellow',bg='green',height=3,width=10)
+l1.pack()
+b1.pack()
+window1.mainloop()
