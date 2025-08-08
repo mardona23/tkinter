@@ -1,0 +1,11 @@
+from tkinter import*
+window=Tk()
+window.title('book & pen')
+window.configure(bg='yellow')
+l1=Label(text='adams secret lab',fg='purpel',bg='green',height=3,width=10)
+b1=Button(text='what happend if you clicked',fg='red',bg='blue',height=3,width=10)
+e1=Entry(bg='orange',fg='black',width=50)
+l1.pack()
+e1.pack()
+b1.pack()
+window.mainloop()
