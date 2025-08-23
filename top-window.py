@@ -1,0 +1,15 @@
+from tkinter import *
+window=Tk()
+window.geometry('500x400')
+window.title('main')
+def toplevel_window():
+    top=Toplevel()
+    top.geometry('100x100')
+    top.title("top window")
+    L2=Label(text='This is the top roof',fg='black',bg='grey')  
+    L2.pack()  
+L1=Label(text='This is the top roof',fg='black',bg='grey')
+L1.pack()
+b1=Button(text='click here to open toplevel window',command=toplevel_window)
+b1.pack()
+window.mainloop()
